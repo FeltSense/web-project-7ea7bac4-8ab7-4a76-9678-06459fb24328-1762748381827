@@ -68,11 +68,11 @@ export default function Contact() {
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Ready to Start?
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-400">
-              Let's Talk
+              Let&apos;s Talk
             </span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Have questions? Want to schedule a tour? We're here to help you begin your fitness journey.
+            Have questions? Want to schedule a tour? We&apos;re here to help you begin your fitness journey.
           </p>
         </div>
 
@@ -143,7 +143,7 @@ export default function Contact() {
                   <CheckCircle className="w-8 h-8 text-green-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
-                <p className="text-gray-600">We'll get back to you within 24 hours.</p>
+                <p className="text-gray-600">We&apos;ll get back to you within 24 hours.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
